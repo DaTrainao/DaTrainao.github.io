@@ -42,6 +42,10 @@ h1 {
 
 html {
 	background-size: cover;
+	background-image: url(images/wallhaven-192035.jpg);
+	background-repeat: no-repeat;
+	background-size: 150%;
+
 	color: #909090;
 	background-color: #151515;
 	text-align: center;
