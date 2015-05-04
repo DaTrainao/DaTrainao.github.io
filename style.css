@@ -1,0 +1,81 @@
+@font-face {
+	font-family: mona;
+	src: url(fonts/Monaco.ttf);
+}
+
+@font-face {
+	font-family: Monte;
+	src: url(fonts/MonteCarloFixed12.ttf);
+}
+
+@font-face {
+	font-family: Starfleet;
+	src: url(fonts/Federation_Starfleet_Hull_23rd.ttf);
+}
+
+.TextField {
+	font-family: Monte;
+	font-size: 16px;
+	background-color: #151515;
+	border: 0px;
+	color: #909090; /*color: #B6B692;*/
+	width: 200px;
+	height: 13px;
+	background-image: url(images/bg_search.png);
+	padding-left: 3px;
+	padding-right: 3px;
+	text-align: center;
+}
+
+a {
+	text-transform: lowercase;
+}
+
+a:hover {
+	text-transform: uppercase;
+}
+
+h1 {
+	font-size: 400%;
+	font-family: Starfleet;
+}
+
+html {
+	background-size: cover;
+	color: #909090;
+	background-color: #151515;
+	text-align: center;
+	text-decoration:none;
+	vertical-align: middle;
+}
+
+div {
+    width: 40%;
+    height: 40%;
+    position: absolute;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+#c1 {
+	color: #909090;
+}
+
+#c2 {
+	color: #606060;
+}
+
+#darmod1 {
+	font-family: Monte, monospace;
+	font-smooth: never;
+	font-size: 16px;
+	font-style: normal;
+	color: #909090;
+	-webkit-font-smoothing : none;
+	text-align: center;
+	text-decoration:none;
+	vertical-align: middle;
+}
