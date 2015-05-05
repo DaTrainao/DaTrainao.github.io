@@ -45,6 +45,7 @@ html {
 	background-image: url(images/wallhaven-192035.jpg);
 	background-repeat: no-repeat;
 	background-size: 150%;
+	background-position: top;
 
 	color: #909090;
 	background-color: #151515;
