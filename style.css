@@ -44,8 +44,13 @@ html {
 	background-size: cover;
 	background-image: url(images/wallhaven-192035.jpg);
 	background-repeat: no-repeat;
-	background-size: 150%;
-	background-position: top;
+	background-attachment: fixed;
+	background-position: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	min-width: 100%;
+	min-height: 100%;
 
 	color: #909090;
 	background-color: #151515;
